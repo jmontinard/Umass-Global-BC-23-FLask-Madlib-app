@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Corben', cursive;
+}
+body{
+    background-color: #33333311;
+
+}
+header { background-color: #000000;}
+
+.navbar {
+    display: flex; 
+    justify-content: center;
+}
+
+#home{
+    display:  inline-block;
+    width: 250px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.logo {width: 100%;}
+
+#content {
+    margin: 40px;
+    text-align: center;
+}
+form *{
+margin: 5px;
+}
+.prompt-form > p{
+    /* border: 1px solid red; */
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+button {
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+    padding: 3px 10px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+input,
+select,
+option {
+    font-weight: bold;
+    padding: 3px 10px;
+    border-radius: 8px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    text-align: left;
+}
+#reminder {
+    color: red;
+    font-weight: bold;
+}
